@@ -1,0 +1,264 @@
+.container{
+    position: relative;
+    width: 100%;
+    height: 90px;
+    background: rgba(129, 121, 107, 0.1);
+    border-bottom: 1px solid black;
+}
+.containerUl>ul{
+    display: flex;
+    align-items: center;
+    height: 90px;
+    margin: 0px 3%;
+}
+.containerUl>ul>li{
+    list-style: none;
+    font-size: 24px;
+    font-family: Ebrima;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #000;
+}
+.containerLogo{
+    position: absolute;
+    top:20px;
+    left: 700px;
+}
+.logo{
+    font-size: 14px;
+}
+.logo>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.containerEnd>ul{
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+}
+.containerEnd>ul>li{
+    list-style: none;
+}
+.containerUl>ul>li:hover{
+    color: rgba(241, 136, 0, 0.51);
+}
+.box{
+    padding: 4% 4%;
+    width: 100%;
+    height: 100px;
+
+}
+.boxImage{
+    width: 100px;
+    height: 60px;
+
+}
+.boxImage>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-bottom: 30px;
+}
+.boxSpan  {
+    padding-top: 28px;
+
+}
+
+.facebook>span{
+    padding: 10px 10px;
+    gap: 5px;
+    background: black;
+    border-radius:50% ;
+    font-size: 28px;
+    color: #ffffff;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.facebook>span:hover{
+    background: rgba(241, 136, 0, 0.51);
+}
+.row{
+    position: relative;
+    top: -123px;
+    left: 430px;
+}
+.row>span{
+        font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.footerUl>ul>li{
+    list-style: none;
+    font-size: 18px;
+    padding-top: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.footerUl>ul>li:hover{
+    color: rgba(241, 136, 0, 0.51);
+}
+.pages{
+    position: relative;
+    top: -239px;
+    left: 710px;
+}
+.pages>span{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px;
+
+}
+.footerulOur>ul>li{
+    list-style: none;
+    font-size: 18px;
+    margin-top: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.mainDecoration {
+    list-style: none;
+    font-size: 18px;
+    margin-top: 8px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.contactDecoration{
+    list-style: none;
+    font-size: 18px;
+    margin-top: 8px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.contactDecoration>li:hover{
+    color: rgba(241, 136, 0, 0.51);
+}
+.mainDecoration>li:hover{
+    color: rgba(241, 136, 0, 0.51);
+}
+
+.footerulOur>ul>li:hover{
+    color: rgba(241, 136, 0, 0.51);
+}
+.contact{
+    position: relative;
+    top: -414px;
+    left: 980px;
+}
+.contact>span{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.footerulStrit>ul>li{
+    list-style: none;
+    font-size: 18px;
+    padding-top: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.footerulStrit>ul>li>a{
+    text-decoration: none;
+    color:black;
+}
+
+
+.footerulStrit>ul>li:hover{
+    color: rgba(241, 136, 0, 0.51);
+}
+
+.borderBottom{
+    position: relative;
+    top: 38px;
+    width: 98%;
+    border-top: 2px solid black;
+    padding: 2% 4%;
+}
+.borderBottom>span{
+    color: rgba(0, 0, 0, 0.87);
+}
+.containerEnd{
+    position: absolute;
+    top: 38px;
+    right: 280px;
+
+}
+.containerEnd>ul>li{
+    margin-right: 10px;
+    font-size: 19px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left:10px ;
+}
+.spans{
+    font-size: 19px;
+}
+.span{
+    margin-right: 14px;
+}
+.containerEnd>ul>li:hover{
+    color: rgba(241, 136, 0, 0.51);
+}
+.containerEndimg{
+    width: 30px;
+    height: 20px;
+    margin-right: 10px;
+}
+.containerEndimg>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 950px){
+    .containerUl{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 950px){
+    .boxImage{
+        display: none;
+    }
+    .facebook>span:nth-child(1){
+        display: none;
+    }
+    .facebook>span:nth-child(2){
+        display: none;
+    }
+    .facebook>span:last-child{
+        display: none;
+    }
+
+}
+@media only screen and (max-width: 950px){
+    .row{
+        position: relative;
+        top:0;
+        left: 0;
+    }
+    .pages{
+        position: relative;
+        top: -116px;
+        left: 210px;
+    }
+    .border{
+       padding-top: 59px;
+    }
+
+}

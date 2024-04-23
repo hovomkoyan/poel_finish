@@ -1,0 +1,47 @@
+.container{
+    padding: 4% 4%;
+
+}
+.containerMap{
+    width: 100%;
+    height: 400px;
+}
+.containerMap>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.containerMap>p{
+    font-size: 16px;
+    margin-left: 18px;
+    padding-top: 14px;
+}
+.container>h2{
+    padding-bottom: 24px;
+}
+.boxSpan {
+    position: relative;
+    top: -32px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    font-size: 30px;
+    margin-left: 4px;
+}
+.boxSpan>span{
+    margin-left: 8px;
+}
+.span{
+    cursor: pointer;
+    transition: 0.3s;
+}
+.span:hover{
+    color: red;
+}
+.spans{
+    cursor: pointer;
+    transition: 0.3s;
+}
+.spans:hover{
+    color: rgba(241, 136, 0, 0.51) ;
+}

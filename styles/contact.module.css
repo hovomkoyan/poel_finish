@@ -1,0 +1,206 @@
+.container{
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+.container>h1{
+    padding: 6% 6%;
+}
+.item{
+    position: absolute;
+    top: 160px;
+    left: 115px;
+    background-color: black;
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+}
+.item>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.item>span{
+    position: absolute;
+    top: 2px;
+    left: 115px;
+    color:#976e2b;
+    font-size: 20px;
+}
+.location>p{
+    position: absolute;
+    top: 188px;
+    left: 230px;
+    font-size: 18px;
+    padding-bottom:8px ;
+}
+.location a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.location a:hover{
+    color:#976e2b;
+}
+.text{
+    position: absolute;
+    top: 210px;
+    left: 230px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 18px;
+}
+.text>p:hover{
+    color: #976e2b;
+}
+.itemOwn{
+    position: absolute;
+    top: 310px;
+    left: 115px;
+    background-color: black;
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+}
+.itemOwn>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.itemOwn>span{
+    position: absolute;
+    top: 2px;
+    left: 115px;
+    color:#976e2b;
+    font-size: 20px;
+}
+.itemOwn>p{
+    position: absolute;
+    top: 32px;
+    left: 115px;
+    font-size: 18px;
+    padding-bottom:8px ;
+}
+.itemOwn a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.itemOwn a:hover{
+    color:#976e2b;
+}
+.mail{
+    position: absolute;
+    top: 430px;
+    left: 115px;
+    background-color: black;
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+}
+.mail>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.mail>span{
+    position: absolute;
+    top: 2px;
+    left: 115px;
+    color:#976e2b;
+    font-size: 20px;
+}
+.mail>p{
+    position: absolute;
+    top: 32px;
+    left: 115px;
+    font-size: 18px;
+    padding-bottom:8px ;
+}
+.mail a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.mail a:hover{
+    color:#976e2b;
+}
+
+.massage{
+    position: absolute;
+    top: 96px;
+    right: 200px;
+}
+
+.massageBackground{
+    width: 600px;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.88);
+}
+.formGroup{
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    width: 200px;
+    height: 40px;
+}
+.formGroup>label{
+    color: white;
+}
+.formGroup1{
+    position: absolute;
+    top: 60px;
+    right: 60px;
+    width: 200px;
+    height: 40px;
+}
+.formGroup1>label{
+    color: white;
+}
+.formGroupMail>label{
+    color: white;
+}
+.formGroupMail{
+    position: absolute;
+    top: 130px;
+    left: 60px;
+    width: 100px;
+    height: 40px;
+}
+.formGroupNumber{
+    position: absolute;
+    top: 130px;
+    right: 160px;
+    width: 100px;
+    height: 40px;
+}
+.formGroupNumber>label{
+    color: white;
+}
+.formGroupMesage{
+    position: absolute;
+    top: 230px;
+    left: 160px;
+    width: 200px;
+    height: 40px;
+}
+.formGroupMesage>label{
+    color: white;
+}
+.divButton{
+    position: absolute;
+    top: 360px;
+    right: 60px;
+}
+.divButton>button{
+    padding: 10px 20px;
+    transition: 0.3s;
+    cursor: pointern;
+}
+.divButton>button:hover{
+    color: white;
+    background-color: blue;
+}

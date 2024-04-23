@@ -1,0 +1,45 @@
+.container {
+    padding: 4% 2%;
+    width: 100%;
+    max-width: 1350px; /* Added max-width for better responsiveness */
+    margin: 0 auto; /* Center the container */
+    background-color: #1e1a1a;
+}
+
+.container > h3 {
+    color: #fff;
+    font-size: 28px;
+    letter-spacing: 2px;
+    padding-left: 16px;
+    padding-bottom: 20px;
+}
+
+.item {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: space-between; /* Distribute items evenly */
+    padding-left: 16px;
+}
+
+.item > div {
+    flex: 0 0 calc(20% - 22px); /* Set initial flex-basis to 20%, subtracting margin */
+    margin-bottom: 20px; /* Add space between rows */
+}
+
+.item > div > img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 1000px) {
+    .item > div {
+        flex-basis: calc(33.33% - 22px); /* Adjust to 33.33% for three items per row */
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .item > div {
+        flex-basis: calc(50% - 22px); /* Adjust to 50% for two items per row */
+    }
+}
